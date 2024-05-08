@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="/home1/index.html">
+    <div id="header">
+        <div class="container">
+           <nav>
+            <ul>
+            <img style="position: relative; right: 150px;" src="/Images/1.png" class="logo">
+    <div style="position: relative; left: 600px; bottom: 50px;">
+        <li><a href="/Home/home.html">Home</a></li>
+        <li><a href="/About/about.html">About</a></li>
+        <li><a href="/Contact/contact.html">Contact</a></li>
+        <li><a href="/Projects/index.html">Projects</a></li>
+    </div>
+</head>
+<body>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+             <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+             </div>
+             <input type="hidden" name="access_key" value="a13959a2-0c8e-4438-bd5c-805664050e85">
+             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+             <button type="submit">Submit <img src="/Images/icons8-arrow-50.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            <img style="position: relative; left: 150px;" src="/Images/th.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
