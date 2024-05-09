@@ -1,0 +1,41 @@
+input {
+border: none;
+outline: none;
+width: 400px; 
+height: 50px;
+background: transparent;
+border: 0;
+border-bottom: 2px solid #c5ecfd;
+}
+
+
+input:hover {
+border-color: rgb(136, 12, 238);
+}
+textarea{
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 150px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #c5ecfd;
+    padding: 10px 12px 14px;
+}
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:50px ;
+    background-color: #da1c9a; /* Submit */
+    position: relative;
+    top: -140px;
+    right: -696px;
+}
+
